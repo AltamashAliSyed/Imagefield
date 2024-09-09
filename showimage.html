@@ -1,0 +1,7 @@
+{% for i in image %}
+
+<img src = "{{i.image.url}}" style="height:600px; width:600px;">
+
+{% endfor %}
+
+<a href="{% url "postimage" %}">Add image</a>
